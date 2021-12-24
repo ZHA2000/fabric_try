@@ -9,6 +9,10 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "downloadjs": "^1.4.7",
+    "element-ui": "^2.15.7",
+    "fabric": "^4.6.0",
+    "lodash": "^4.17.21",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
     "vue-property-decorator": "^9.1.2",
@@ -16,6 +20,9 @@
     "vuex": "^3.4.0"
   },
   "devDependencies": {
+    "@types/downloadjs": "^1.4.3",
+    "@types/fabric": "^4.5.6",
+    "@types/lodash": "^4.14.178",
     "@typescript-eslint/eslint-plugin": "^4.18.0",
     "@typescript-eslint/parser": "^4.18.0",
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -27,6 +34,8 @@
     "@vue/eslint-config-typescript": "^7.0.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "less": "4.1.1",
+    "less-loader": "7.3.0",
     "typescript": "~4.1.5",
     "vue-template-compiler": "^2.6.11"
   },
@@ -42,8 +51,7 @@
     ],
     "parserOptions": {
       "ecmaVersion": 2020
-    },
-    "rules": {}
+    }
   },
   "browserslist": [
     "> 1%",

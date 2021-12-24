@@ -6,18 +6,13 @@ const routes: Array<RouteConfig> = [
   {
     path: '/',
     name: 'home',
-    redirect: 'dashboard'
+    redirect: 'fabric'
   },
   {
-    path: '/dashboard',
-    name: 'dashboard',
-    component: () => import(/* webpackChunkName: "dashboard" */ '@/views/dashboard/index.vue'),
+    path: '/fabric',
+    name: 'fabric',
+    component: () => import(/* webpackChunkName: "fabric" */ '@/views/fabric/index.vue'),
   },
-  {
-    path: '/login',
-    name: 'login',
-    component: () => import(/* webpackChunkName: "login" */ '@/views/login/index.vue'),
-  }
 ]
 
 const router = new VueRouter({
