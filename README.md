@@ -1,4 +1,6 @@
-# vue_ts_try
+# fabricjs_try
+
+## Next：橡皮擦与钢笔效果（或许用贝塞尔曲线？）
 
 ## Project setup
 ```
